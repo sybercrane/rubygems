@@ -28,7 +28,7 @@ linter:
     dependencies:
       - rubocop-rails
       - { name: "rubocop-rspec", version: "2.1.0" }
-    config: config/.rubocop.yml
+    config: .rubocop.yml
     safe: true
 
 #   # ShellCheck example. See https://help.sider.review/tools/shellscript/shellcheck
